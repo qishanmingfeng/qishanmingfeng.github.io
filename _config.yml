@@ -1,0 +1,60 @@
+permalink: /:year/:month/:day/:title.html
+paginate: 10
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+# 作者信息
+author:
+  name: 李竞佳
+  email: qishanmingfeng@gmail.com
+  link: https://qishanmingfeng.github.io
+  weibo: http://weibo.com/u/2728746344
+  github: http://github.com/qishanmingfeng
+
+# 站点信息
+title: JiaJia的博客
+description: JiaJia的博客
+url: https://qishanmingfeng.github.io
+rss_url: /pages/atom.xml
+
+# gavatar头像及Favicon
+gavatar: /public/img/jiajiadev.png
+favicon: /public/img/jiajiadev.png
+
+safe: true
+# 修改google分析工具的id       
+# 如果想自定义分析服务提供商，请自行google
+analytics :
+    provider : google 
+    google : 
+        tracking_id : 'UA-77901483-1'
+
+# comments 设置
+comments:
+    provider: duoshuo
+    disqus:
+        shortname: qishanmingfeng
+    duoshuo:
+        shortname: qishanmingfeng    
+
+# 主题设置，自动激活某个标签
+active: 读书
+
+# 首页除了最新文章外显示分类
+cates:
+  - Python
+  - OpenStack
+
+# 中文本地化
+locals:
+  tags: 标签
+  about: 关于
+  newest: 最新文章
+  archive: 归档
+  content: 目录
+
+# just for test
+#host: 192.168.11.105
+#port: 80
